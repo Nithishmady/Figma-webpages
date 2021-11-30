@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Shippori+Antique+B1&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.form-control.me-2 {
+    border: 1px solid #c3cee6;
+    border-radius: 20px;
+    background-color: #edeef3;
+}
+
+.container-fluid.mt-3 {
+    background-color: #FFFFFF!important;
+}
+
+.btn.btn-outline-success {
+    border: 1px solid #c3cee6;
+    color: #AEB3E3;
+    border-radius: 20px;
+    width: 230px;
+}
+
+i {
+    margin-top: 10px;
+    color: #AEB3E3;
+}
+
+@media(max-width:767px) {
+    a.profile {
+        font-size: 20px;
+        color: black;
+        float: right;
+    }
+    form.d-flex {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .btn.btn-outline-success.ml-2 {
+        width: 70px;
+        display: none;
+    }
+}
