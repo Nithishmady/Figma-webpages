@@ -1,0 +1,160 @@
+        span.Logo_sell {
+            color: rgba(112, 115, 190, 1);
+            font-size: 26px;
+            font-weight: 600;
+            font-style: bold;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        ul li a.footer-links {
+            color: rgba(250, 251, 253, 1);
+        }
+        
+        .footer {
+            background-color: rgb(197, 194, 194);
+            padding: 20px 0px;
+        }
+        
+        .footer-links {
+            width: 100%;
+            padding: 0 15px;
+        }
+        
+        .footer-links h4 {
+            font-size: 15px;
+            color: rgba(112, 115, 190, 1);
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        
+        .footer-links ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links ul li a {
+            font-size: 13px;
+            text-transform: capitalize;
+            color: rgba(250, 251, 253, 1);
+            text-decoration: none;
+            font-weight: 400;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        
+        .down-box {
+            margin: 50px 50px 0px 50px;
+        }
+        
+        .newline {
+            border-top: 2px solid black;
+            height: 60px;
+            width: 130%;
+        }
+        
+        .TermsandCondition h6 {
+            padding-left: 20px;
+        }
+        
+        .footers {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        section.footer {
+            min-height: 25vh!important;
+        }
+        
+        .findus img.pl-3 {
+            height: 23px;
+        }
+        
+        @media (max-width: 768px) {
+            div.footer-links {
+                text-align: left;
+                margin-bottom: 0px!important;
+            }
+            .newline {
+                width: 100%;
+            }
+            div.logo {
+                text-align: left;
+                display: flex;
+                /* justify-content: center; */
+            }
+            .footer-collection {
+                flex-direction: column;
+            }
+            .TermsandCondition h6 {
+                padding-left: 9px;
+                font-size: 14px;
+                text-align: left;
+                margin: auto;
+            }
+            .findus h6 {
+                font-size: 14px;
+            }
+            .findus img.pl-3 {
+                height: 20px;
+            }
+            div.footers.row {
+                flex-direction: row;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%!important;
+            }
+        }
+        
+        @media screen and (min-width: 320px) and (max-width: 500px) {
+            .TermsandCondition h6 {
+                padding-left: 9px;
+                font-size: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: left;
+                margin-right: 0px;
+                margin-left: 2px;
+                margin-top: -10px;
+            }
+            .findus h6 {
+                font-size: 10px;
+            }
+            .findus img.pl-3 {
+                height: 17px;
+            }
+            /* h6.d-inline {
+                display: block;
+            } */
+            .footers.row {
+                position: relative;
+            }
+            .findus {
+                position: absolute;
+                right: 55px;
+                top: 20px;
+            }
+        }
+        
+        body {
+            margin: 10px;
+        }
+        
+        .firsts {
+            height: 200px;
+            background-color: #ddd;
+        }
+        
+        .ontop {
+            height: 100px;
+            background-color: #d00;
+            position: absolute;
+            top: 100px;
+            right: 0;
+            left: 0;
+        }
