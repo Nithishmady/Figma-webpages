@@ -421,6 +421,14 @@ button.get_btn {
     border-radius: 3px;
 }
 
+.lists.col-md-5:nth-child(3) {
+    border-top: 2px solid rgb(193, 33, 33);
+}
+
+.lists.col-md-5:nth-child(12) {
+    border-top: 2px solid rgb(50, 216, 32);
+}
+
 .lists ul li:nth-child(even) {
     font-size: 12px;
     color: rgba(139, 147, 167, 1)
@@ -512,22 +520,25 @@ label {
     background-color: rgba(239, 242, 247, 1);
 }
 
-img.A1 {
+img.A10 {
+    z-index: 1;
     position: absolute;
-    left: 160px;
-    top: 3100px;
+    left: 140px;
+    top: 170px;
 }
 
-img.A2 {
+img.A11 {
+    z-index: 0;
     position: absolute;
-    left: 520px;
-    top: 3200px;
+    left: 510px;
+    top: 260px
 }
 
-img.A3 {
+img.A12 {
+    z-index: 0;
     position: absolute;
-    right: 180px;
-    top: 3100px;
+    right: 150px;
+    top: 180px
 }
 
 .Create-Account {
@@ -654,21 +665,14 @@ section.Wall_Tokens {
     .lists ul li:nth-child(even) {
         font-size: 10px;
     }
-    img.A1 {
-        position: absolute;
-        left: 10px;
-        top: 3020px;
+    img.A10 {
+        left: 20px;
     }
-    img.A2 {
-        position: absolute;
-        left: 290px;
-        top: 3120px;
-        z-index: 0;
+    img.A11 {
+        left: 300px;
     }
-    img.A3 {
-        position: absolute;
-        right: 10px;
-        top: 3090px;
+    img.A12 {
+        right: 30px;
     }
     .Free {
         height: 230px;
@@ -878,21 +882,8 @@ section.Wall_Tokens {
     .card h1 {
         left: 90px!important;
     }
-    img.A1 {
-        position: absolute;
-        left: 10px;
-        top: 3390px;
-    }
-    img.A2 {
-        position: absolute;
-        left: 240px;
-        top: 3490px;
-        z-index: 0;
-    }
-    img.A3 {
-        position: absolute;
-        right: 10px;
-        top: 3390px;
+    img.A11 {
+        left: 225px;
     }
     .Free {
         height: 200px;
@@ -954,7 +945,7 @@ section.Wall_Tokens {
         height: 100vh;
     }
     section.main-bar {
-        height: 100vh!important;
+        height: 95vh!important;
     }
     section.Wall_Tokens {
         height: 90vh!important;
@@ -1004,7 +995,8 @@ section.Wall_Tokens {
     .Main_btn {
         position: absolute;
         top: 640px;
-        left: 140px;
+        left: 130px;
+        margin: auto!important;
     }
     .Get-started {
         padding-top: 40px!important;
@@ -1114,32 +1106,6 @@ section.Wall_Tokens {
     .lists ul {
         padding-left: 2px!important;
     }
-    /* .Free {
-        height: 200px;
-        width: 200px;
-        padding: 20px;
-        left: 90px;
-        position: absolute;
-    }
-    .Premium {
-        border-radius: 13px;
-        height: 190px;
-        width: 270px;
-        padding: 20px 20px 0px 20px;
-        box-shadow: 30px 25px 520px rgba(0, 7, 199, 0.15);
-        background-color: rgba(255, 255, 255, 1);
-        left: 90px;
-        position: absolute;
-        top: 4810px;
-    }
-    .Enterprice {
-        border-radius: 13px;
-        height: 200px;
-        width: 200px;
-        padding: 20px;
-        box-shadow: 30px 25px 520px rgba(0, 7, 199, 0.15);
-        background-color: rgba(255, 255, 255, 1);
-    } */
     .Free,
     .Premium {
         margin: auto;
@@ -1148,20 +1114,16 @@ section.Wall_Tokens {
         margin: auto;
         margin-top: 80px;
     }
-    img.A1 {
-        position: absolute;
-        left: 10px;
-        top: 4500px;
+    img.A10 {
+        left: 60px;
     }
-    img.A2 {
-        position: absolute;
+    img.A11 {
         left: 10px;
-        top: 4800px;
+        top: 450px;
     }
-    img.A3 {
-        position: absolute;
-        left: 230px;
-        top: 5050px;
+    img.A12 {
+        right: 60px;
+        top: 730px;
     }
 }
 
@@ -1232,3 +1194,12 @@ section.Wall_Tokens {
         width: 120px;
     }
 }
+
+
+/* @media only screen and (max-width: 375px) {
+    button.Main_btn {
+        position: absolute;
+        top: 640px;
+        left: 10px;
+    }
+} */
